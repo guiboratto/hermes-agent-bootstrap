@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backup / state
+.pre-bootstrap.bak.tar
+*.bak
+*.local
+
+# Secrets (never commit)
+.env
+.env.local
+.env.*.local
+
+# Skill bundles (large, regeneration-specific)
+hermes-skills-bundle.tar.gz
